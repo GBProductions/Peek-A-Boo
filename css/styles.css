@@ -19,20 +19,20 @@
   display: none;
 }
 
-#clickable2 {
+.clickable1 {
   cursor: pointer;
   color: #0088cc;
 }
 
-#clickable2:hover {
+.clickable1:hover {
   text-decoration: underline;
 }
 
-#clickable3 {
+.clickable2 {
   cursor: pointer;
   color: #0088cc;
 }
 
-#clickable3:hover {
+.clickable2:hover {
   text-decoration: underline;
 } 

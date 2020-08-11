@@ -6,15 +6,15 @@
  });
 
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable1").click(function() {
     $("#pig-fade-in").fadeIn ({duration: "slow", queue: false});
-    $("#pig-fade-out").fadeOut ({duration: "slow", queue: false});
+    $("#pig-fade-out").fadeOut ({duration: "slow", queue: true});
   });
 });
 
  $(document).ready(function() {
-   $(".clickable").click(function() {
-     $("#rhino-slideUp").toggle(duration: "fast");
-     $("#rhino-slideDown").toggle(duration:"fast");
+   $(".clickable2").click(function() {
+     $("#rhino-slideUp").slideDown ({duration: "slow", queue: false});
+     $("#rhino-slideDown").slideUp({duration: "slow", queue: false});
    });
  });
